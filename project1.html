@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title> Vaikunth's notes</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="TOC">
+			<h1>Table of Contents</h1>
+			<ol>
+				<li><a href="#About-Myself">Get to know about myself</a>
+				</li>
+				<li><a href="lesson-1">Lesson 1: Basics of Web and HTML</a>
+					<ul>
+						<li><a href="#lesson-1-1">How do we get to see webpages using our computer</a></li>
+						<li><a href="#lesson-1-2">Basics of HTML</a></li>
+						<li><a href="#lesson-1-3">HTML Tags</a></li>
+						<li><a href="#lesson-1-4">Inline and Block</a></li>
+					</ul>
+				</li>
+				<li class="TOC-lesson"><a href="#lesson-2">Lesson 2:Creating a Structured Document with HTML</a>
+					<ul>
+						<li><a href="#lesson-2-1">Document Structure</a></li>
+						<li><a href="#lesson-2-2">Boxes and Pages</a></li>
+						<li><a href="#lesson-2-3">Text Editing Programs</a></li>
+						<li><a href="#lesson-2-4">Dissect a page into boxes</a></li>
+					</ul>
+				</li>
+				<li class="TOC-lesson"><a href="#lesson-3">Lesson 3:Adding Style to HTML using CSS</a>
+					<ul>
+						<li><a href="#lesson-3-1">How to avoid repetition</a></li>
+						<li><a href="#lesson-3-2">Get to know about CSS</a></li>
+						<li><a href="#lesson-3-3">Positioning and Flex</a></li>
+					</ul>
+				</li>
+			</ol>
+		</div>
+		<div class="Aboutmyself">
+			<div class="Aboutmyself-title"><h2 id="About-Myself"> About Myself </h2></div>
+			<div>
+				<p> I am basically a Chemical Engineer graduate from a prestigious college in California. When I was in my 11th grade I liked Chemistry a lot and decided to pursue Chemistry and explore more stuff about reactions and find out what triggers every chemical reaction and what is the science behind them. This process led me to deeply explore more stuff in the field of nanomaterials which is an integral part of everyday stuff we make use of. So, in my grad school I discovered cool stuff about nanomaterials and was also exposed to various equipments used in that field. But one things kept intriguing me which was the amount of computers used and the level of automation each and every equipment I used had in it. This led to me take up a nanodegree program in udacity and learn more about computers and programming and udacity. Just for you guys, a look into one of the gold nanowires that I used to create during my grad school research work and the size of the wire is astonishingly 200 nano metres. </p>
+				<div class="nano">
+					<img src="images/nano.png" width="725" height="300" alt="Gold Nanowire">
+				</div>
+			</div>
+		</div>
+
+		<h1>Topics Covered</h1>
+		<div class="lesson">
+			<h2 id="lesson-1">Lesson 1: Introduction to HTML</h2>
+			<div class="ideas" id="lesson-1-1">
+				<div class="ideas-title">
+				<p><b> How do we get to see webpages using our computer</b></p>
+				</div>
+				<div class="ideas-explanation">	<p> When we input the address of a webpage in the computer it send a HTTP request to the server and the server<br> finds the appropriate document and returns it back to the computer which in turn is displayed by the browser.</p>
+				</div>
+			</div>
+			<div class="ideas" id="lesson-1-2">
+				<div class="ideas-title">
+				<p><b>HTML</b></p>
+				</div>
+				<div class="ideas-explanation"> <p> HTML stands for Hypertext Markup Language. An html document can contain text, mark up elements, references to other documents and links to other pages. This is explained
+		clearly in this video. <a href ="https://www.youtube.com/watch?v=5Kjx-NOwcSc"> Video link for Basics of HTML </a></p>
+				</div>
+			</div>
+			<div class="ideas" id="lesson-1-3">
+				<div class="ideas-title">
+				<p><b>HTML</b></p>
+				</div>
+				<div class="ideas-explanation"> <p> HTML stands for Hypertext Markup Language. An html document can contain text, mark up elements, references to other documents and links to other pages. This is explained
+		clearly in this video. <a href ="https://www.youtube.com/watch?v=5Kjx-NOwcSc"> Video link for Basics of HTML </a></p>
+				</div>
+			</div>
+			<div class="ideas" id="lesson-1-4">
+				<div class="ideas-title">
+				<p><b>Tags</b></p>
+				</div>
+				<div class="ideas-explanation"><p>HTML files can contain a variety of tags including b - bold; a - anchor; em - emphasis; br - break and so on. These tags helps in identifying the type of element
+		that is being used. Further explanation can be found in this video. <a href="https://www.udacity.com/course/viewer#!/c-nd000/l-3873828673/m-48723444">Click this link for HTML Tags.</a></p>
+				</div>
+			</div>
+			
+			<div class="ideas" id="lesson-1-5">
+				<div class="ideas-title">
+				<p><b>Inline and Block Elements</b></p>
+				</div>
+				<div class="ideas-explanation"><p> Some tags used in HTML create a block around the content for which the various dimensions could be specified. Few examples are the paragraph tag and div tag.
+			The break tag and other tags used are mostly inline since they do not create any invisible block around the content.</p>
+				</div>
+			</div>
+		</div>
+		<div class="lesson">
+			<h2 id="#lesson-2">Lesson 2:Creating a Structured Document with HTML</h2>
+			<div class="ideas" id="lesson-2-1">
+				<div class="ideas-title">
+				<p><b>Document Structure</b></p>
+				</div>
+				<div class="ideas-explanation">	<p>Usually an HTML document must contain the opening html tag followed by the head tag under which the title and other meta data are entered and displayed in 
+			the top of the web page. The body contains the content of the web page and the heading tags can be used to specify the size of the heading. Indentations are
+			used to identify the opening and closing of tags and also makes it easier for humans to read and intrepret the code.</p>
+				</div>
+			</div>
+			<div class="ideas" id="lesson-2-2">
+				<div class="ideas-title">
+				<p><b>Boxes and Pages</b></p>
+				</div>
+				<div class="ideas-explanation"><p> In a browser, if we inspect each element of the page we are looking at, we see that all the element are made up of boxes, sometimes boxes within boxes. When we read an html document, each indented element corresponds to the stage in which it is inside the box. </p>
+				</div>
+			</div>
+			<div class="ideas" id="lesson-2-3">
+				<div class="ideas-title">
+				<p><b>Text Editing Programs</b></p>
+				</div>
+				<div class="ideas-explanation">	<p> There are different programs used to type and edit html code. Some editors like Sublime(which I use) makes our life easier by generating closing tags for every tag we open. Other editors can also be used based on the convenience of the user.</p>
+				</div>
+			</div>
+			<div class="ideas" id="lesson-2-4">
+				<div class="ideas-title">
+				<p><b>Dissect a Page into boxes</b></p>
+				</div>
+				<div class="ideas-explanation">	<p>	When we try to design a page using HTML and CSS, its easier to imagine each and every element as a box and then write the code based on the number of boxes we require and the content inside each box. CSS elements allow us to add styles to the page like background colour, font colour, box width, size, etc. </p>
+				</div>
+			</div>
+		</div>
+
+		<div class="lesson">
+			<h2 id="lesson-3">Adding style to HTML using CSS</h2>
+			<div class="ideas" id="lesson-3-1">
+				<div class="ideas-title">
+				<p><b>Avoid repetition</b></p>
+				</div>
+				<div class="ideas-explanation">	<p>	Trying to avoid repetition of code helps us in identifying errors in the code and fixing them easily. If same lines of code is repeated again and again, an error needs to be rectified at all the places and this is time consuming.</p>
+				</div>
+			</div>
+			<div class="ideas" id="lesson-3-2">
+				<div class="ideas-title">
+				<p><b>Get to know about CSS</b></p>
+				</div>
+				<div class="ideas-explanation">	<p>	CSS stands for Cascading Style Sheets. An HTML document contain various CSS sheets linked to it. We can use the link tag to link the CSS document with the html one. All attributes of the html page can be given using CSS and it is usually easier done by specifying each class used in the html document. </p>
+				</div>
+			</div>
+			<div class="ideas" id="lesson-3-3">
+				<div class="ideas-title">
+				<p><b>Positioning and Flex</b></p>
+				</div>
+				<div class="ideas-explanation">	<p>	If we specify the width of every div in the html page it results in boxes which are stacked one below another. We need to position the boxes and one useful concept covering this is the use of flex box layout. Flex box provides an efficient way to layout and display elements next to each other.</p>
+				</div>
+			</div>
+		</div>
+	</body>
+
+
+
+
+
+
+	
+	
+	
+
+
+			
+		
